@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pyodbc
+python-multipart
+pandas
+openpyxl
+pymupdf
+pdfplumber
+pillow
+opencv-python
+pytesseract
+loguru
+python-dotenv
+xlsxwriter
