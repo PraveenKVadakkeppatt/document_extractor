@@ -11,4 +11,6 @@ class Settings:
     DB_NAME = os.getenv("DB_NAME")
     DB_DRIVER = os.getenv("DB_DRIVER")
 
+    DOCUMENT_STORAGE = r"D:\document_storage"
+
 settings = Settings()

@@ -160,3 +160,67 @@
 2026-05-25 16:14:21.140 | INFO     | app.router.upload:upload_document:68 - STEP 6: Document 34 processed successfully
 2026-05-25 16:14:21.256 | INFO     | app.router.upload:upload_document:73 - STEP 7: Extracted data saved for document 34
 2026-05-25 16:14:21.272 | INFO     | app.router.upload:upload_document:78 - STEP 8: Document 34 COMPLETED
+2026-05-29 20:04:25.392 | INFO     | app.router.upload:upload_document:24 - STEP 1: Upload started
+2026-05-29 20:04:25.398 | INFO     | app.router.upload:upload_document:32 - STEP 2: File type detected: pdf
+2026-05-29 20:04:25.411 | INFO     | app.router.upload:upload_document:44 - STEP 3: File saved at uploads\py.pdf
+2026-05-29 20:04:26.004 | INFO     | app.router.upload:upload_document:57 - STEP 4: Document saved in DB with ID 35
+2026-05-29 20:04:26.080 | INFO     | app.router.upload:upload_document:64 - STEP 5: Document 35 status updated to PROCESSING
+2026-05-29 20:04:26.782 | INFO     | app.router.upload:upload_document:68 - STEP 6: Document 35 processed successfully
+2026-05-29 20:04:26.886 | INFO     | app.router.upload:upload_document:73 - STEP 7: Extracted data saved for document 35
+2026-05-29 20:04:26.913 | INFO     | app.router.upload:upload_document:78 - STEP 8: Document 35 COMPLETED
+2026-05-30 11:14:05.467 | INFO     | app.router.upload:upload_document:24 - STEP 1: Upload started
+2026-05-30 11:14:05.467 | INFO     | app.router.upload:upload_document:32 - STEP 2: File type detected: excel
+2026-05-30 11:14:05.475 | INFO     | app.router.upload:upload_document:44 - STEP 3: File saved at uploads\purchase_order_17.xlsx
+2026-05-30 11:14:05.582 | INFO     | app.router.upload:upload_document:57 - STEP 4: Document saved in DB with ID 1
+2026-05-30 11:14:05.619 | INFO     | app.router.upload:upload_document:64 - STEP 5: Document 1 status updated to PROCESSING
+2026-05-30 11:14:06.898 | INFO     | app.router.upload:upload_document:68 - STEP 6: Document 1 processed successfully
+2026-05-30 11:14:06.970 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 1
+2026-05-30 11:14:07.011 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 1 COMPLETED
+2026-05-30 11:15:45.448 | INFO     | app.router.upload:upload_document:24 - STEP 1: Upload started
+2026-05-30 11:15:45.453 | INFO     | app.router.upload:upload_document:32 - STEP 2: File type detected: pdf
+2026-05-30 11:15:45.465 | INFO     | app.router.upload:upload_document:44 - STEP 3: File saved at uploads\purchaseorders (15)DEMO.pdf
+2026-05-30 11:15:45.486 | INFO     | app.router.upload:upload_document:57 - STEP 4: Document saved in DB with ID 2
+2026-05-30 11:15:45.499 | INFO     | app.router.upload:upload_document:64 - STEP 5: Document 2 status updated to PROCESSING
+2026-05-30 11:15:45.636 | INFO     | app.router.upload:upload_document:68 - STEP 6: Document 2 processed successfully
+2026-05-30 11:15:45.649 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 2
+2026-05-30 11:15:45.662 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 2 COMPLETED
+2026-05-30 12:47:54.780 | INFO     | app.router.upload:upload_document:23 - STEP 1: Upload started
+2026-05-30 12:47:54.794 | INFO     | app.router.upload:upload_document:31 - STEP 2: File type detected: pdf
+2026-05-30 12:47:54.801 | INFO     | app.router.upload:upload_document:43 - STEP 3: File saved at D:\document_storage\purchaseorders (1)DEMO.pdf
+2026-05-30 12:47:55.011 | INFO     | app.router.upload:upload_document:56 - STEP 4: Document saved in DB with ID 3
+2026-05-30 12:47:55.049 | INFO     | app.router.upload:upload_document:63 - STEP 5: Document 3 status updated to PROCESSING
+2026-05-30 12:47:55.231 | INFO     | app.router.upload:upload_document:67 - STEP 6: Document 3 processed successfully
+2026-05-30 12:47:55.237 | ERROR    | app.router.upload:upload_document:81 - ERROR processing document 3: 'content'
+2026-05-30 12:54:48.741 | INFO     | app.router.upload:upload_document:23 - STEP 1: Upload started
+2026-05-30 12:54:48.742 | INFO     | app.router.upload:upload_document:31 - STEP 2: File type detected: pdf
+2026-05-30 12:54:48.751 | INFO     | app.router.upload:upload_document:43 - STEP 3: File saved at D:\document_storage\purchaseorders (13)DEMO.pdf
+2026-05-30 12:54:48.995 | INFO     | app.router.upload:upload_document:56 - STEP 4: Document saved in DB with ID 4
+2026-05-30 12:54:49.076 | INFO     | app.router.upload:upload_document:63 - STEP 5: Document 4 status updated to PROCESSING
+2026-05-30 12:54:49.179 | INFO     | app.router.upload:upload_document:67 - STEP 6: Document 4 processed successfully
+2026-05-30 12:54:49.213 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 4
+2026-05-30 12:54:49.233 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 4 COMPLETED
+2026-05-30 15:37:21.526 | INFO     | app.router.upload:upload_document:23 - STEP 1: Upload started
+2026-05-30 15:37:21.593 | INFO     | app.router.upload:upload_document:31 - STEP 2: File type detected: pdf
+2026-05-30 15:37:21.611 | INFO     | app.router.upload:upload_document:43 - STEP 3: File saved at D:\document_storage\purchaseorders (1)DEMO (1).pdf
+2026-05-30 15:37:23.556 | INFO     | app.router.upload:upload_document:56 - STEP 4: Document saved in DB with ID 5
+2026-05-30 15:37:23.633 | INFO     | app.router.upload:upload_document:63 - STEP 5: Document 5 status updated to PROCESSING
+2026-05-30 15:37:23.909 | INFO     | app.router.upload:upload_document:67 - STEP 6: Document 5 processed successfully
+2026-05-30 15:37:23.958 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 5
+2026-05-30 15:37:23.997 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 5 COMPLETED
+2026-05-30 15:56:56.993 | INFO     | app.router.upload:upload_document:23 - STEP 1: Upload started
+2026-05-30 15:58:22.726 | INFO     | app.router.upload:upload_document:23 - STEP 1: Upload started
+2026-05-30 15:58:22.728 | INFO     | app.router.upload:upload_document:31 - STEP 2: File type detected: pdf
+2026-05-30 15:58:22.740 | INFO     | app.router.upload:upload_document:43 - STEP 3: File saved at D:\document_storage\Praveen_py_cv .pdf
+2026-05-30 15:58:22.990 | INFO     | app.router.upload:upload_document:56 - STEP 4: Document saved in DB with ID 6
+2026-05-30 15:58:23.034 | INFO     | app.router.upload:upload_document:63 - STEP 5: Document 6 status updated to PROCESSING
+2026-05-30 15:58:23.212 | INFO     | app.router.upload:upload_document:67 - STEP 6: Document 6 processed successfully
+2026-05-30 15:58:23.229 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 6
+2026-05-30 15:58:23.246 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 6 COMPLETED
+2026-05-30 20:20:26.699 | INFO     | app.router.upload:upload_document:23 - STEP 1: Upload started
+2026-05-30 20:20:26.702 | INFO     | app.router.upload:upload_document:31 - STEP 2: File type detected: pdf
+2026-05-30 20:20:26.705 | INFO     | app.router.upload:upload_document:43 - STEP 3: File saved at D:\document_storage\purchaseorders (18)DEMO.pdf
+2026-05-30 20:20:27.055 | INFO     | app.router.upload:upload_document:56 - STEP 4: Document saved in DB with ID 7
+2026-05-30 20:20:27.074 | INFO     | app.router.upload:upload_document:63 - STEP 5: Document 7 status updated to PROCESSING
+2026-05-30 20:20:27.183 | INFO     | app.router.upload:upload_document:67 - STEP 6: Document 7 processed successfully
+2026-05-30 20:20:27.190 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 7
+2026-05-30 20:20:27.203 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 7 COMPLETED

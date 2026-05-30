@@ -86,7 +86,6 @@ def extract_deliver_to(text: str):
 
 
 
-
 # Line Item Extraction
 def extract_line_items(text: str):
     lines = [ line.strip() for line in text.splitlines() if line.strip() ]

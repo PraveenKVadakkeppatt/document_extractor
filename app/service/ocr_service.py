@@ -28,7 +28,7 @@ def extract_text_from_scanned_pdf(file_path: str):
                 # Convert PDF page to image
                 pix = page.get_pixmap()
 
-                # Convert image bytes to PIL image (no temp file needed)
+                # Convert image bytes to PIL image
                 image_bytes = pix.tobytes("png")
                 image = Image.open(io.BytesIO(image_bytes))
 

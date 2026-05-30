@@ -1,9 +1,9 @@
+import json
 import os
 import shutil
 from app.database import get_db
 from app.models import Document
 from app.service.file_detector import detect_file_type
-from app.service.persistence_service import save_extracted_data
 from app.service.processor import process_document
 from fastapi import APIRouter, UploadFile, File, Depends, HTTPException
 from sqlalchemy.orm import Session
@@ -13,8 +13,7 @@ from app.utils.logger import app_logger
 
 router = APIRouter()
 
-UPLOAD_DIR = "uploads"
-
+UPLOAD_DIR = r"D:\document_storage"
 
 @router.post("/upload", response_model=UploadResponse)
 async def upload_document(file: UploadFile = File(...), db: Session = Depends(get_db)):
@@ -68,7 +67,9 @@ async def upload_document(file: UploadFile = File(...), db: Session = Depends(ge
         app_logger.info(f"STEP 6: Document {document.id} processed successfully")
 
 
-        save_extracted_data(db=db, document_id=document.id, extracted_data=result["content"])
+        document.extracted_json = json.dumps(result)
+        print(result)
+        db.commit()
 
         app_logger.info(f"STEP 7: Extracted data saved for document {document.id}")
 
