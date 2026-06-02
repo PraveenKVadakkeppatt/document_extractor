@@ -1,4 +1,3 @@
-
 from app.service.ocr_service import extract_text_from_image
 
 

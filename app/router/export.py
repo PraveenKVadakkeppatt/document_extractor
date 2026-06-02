@@ -14,8 +14,8 @@ from app.service.export_service import build_export_data
 router = APIRouter(prefix="/export",tags=["Export API file"])
 
 
-# EXPORT_DIR = "exports"
-# os.makedirs(EXPORT_DIR, exist_ok=True)
+EXPORT_DIR = "exports"
+os.makedirs(EXPORT_DIR, exist_ok=True)
 
 def fetch_export_data(document_id: int, db: Session):
 
@@ -70,7 +70,7 @@ def export_csv(document_id: int, db: Session = Depends(get_db)):
     try:
         document = fetch_export_data(document_id, db)
 
-        data = build_export_data(document.extracted_json)
+        data = json.loads(document.extracted_json)
 
         metadata_df = pd.DataFrame([{
             "po_number": data.get("po_number"),
@@ -118,7 +118,7 @@ def export_excel(document_id: int, db: Session = Depends(get_db)):
     try:
         document = fetch_export_data(document_id, db)
 
-        data = build_export_data(document.extracted_json)
+        data = json.loads(document.extracted_json)
 
         metadata_df = pd.DataFrame([{
             "po_number": data.get("po_number"),

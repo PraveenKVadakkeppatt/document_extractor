@@ -8,7 +8,7 @@ def extract_pdf_text(file_path: str):
         for page in doc:
             full_text += page.get_text()
 
-        print(full_text)
+        # print(full_text)
 
         return full_text
     

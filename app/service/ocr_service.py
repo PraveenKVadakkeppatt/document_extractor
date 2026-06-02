@@ -3,7 +3,7 @@ import pytesseract
 from PIL import Image
 import fitz
 
-
+#Configure Tesseract Path
 pytesseract.pytesseract.tesseract_cmd = r"D:\Tesseract-OCR\tesseract.exe"
 
 
@@ -28,8 +28,10 @@ def extract_text_from_scanned_pdf(file_path: str):
                 # Convert PDF page to image
                 pix = page.get_pixmap()
 
-                # Convert image bytes to PIL image
+                # Convert Image To PNG bytes
                 image_bytes = pix.tobytes("png")
+
+                # Converts PNG bytes into a Pillow Image
                 image = Image.open(io.BytesIO(image_bytes))
 
                 #OCR

@@ -13,3 +13,5 @@ pytesseract
 loguru
 python-dotenv
 xlsxwriter
+redis
+rq

@@ -11,6 +11,7 @@ connection_string = (
     "TrustServerCertificate=yes;"
 )
 
+# Encode Connection String
 params = urllib.parse.quote_plus(connection_string)
 
 DATABASE_URL = f"mssql+pyodbc:///?odbc_connect={params}"
