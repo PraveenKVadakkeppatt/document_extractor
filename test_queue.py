@@ -1,4 +1,4 @@
-from app.queue import document_queue
+from app.redis_queue import document_queue
 
 
 job = document_queue.enqueue(print, "Hello RQ")

@@ -272,3 +272,73 @@
 2026-06-01 18:13:30.511 | INFO     | app.router.upload:upload_document:67 - STEP 6: Document 13 processed successfully
 2026-06-01 18:13:30.592 | INFO     | app.router.upload:upload_document:74 - STEP 7: Extracted data saved for document 13
 2026-06-01 18:13:30.600 | INFO     | app.router.upload:upload_document:79 - STEP 8: Document 13 COMPLETED
+2026-06-04 15:36:02.157 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 15:36:02.157 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 15:36:02.157 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (16)DEMO.pdf
+2026-06-04 15:36:02.308 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 14
+2026-06-04 15:36:02.309 | ERROR    | app.router.upload:upload_document:76 - ERROR processing document 14: 'Document' object has no attribute 'queue'
+2026-06-04 15:41:12.051 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 15:41:12.052 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 15:41:12.055 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (17)DEMO.pdf
+2026-06-04 15:41:12.111 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 15
+2026-06-04 15:41:44.950 | ERROR    | app.router.upload:upload_document:76 - ERROR processing document 15: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2026-06-04 15:44:41.084 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 15:44:41.084 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 15:44:41.087 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (17)DEMO.pdf
+2026-06-04 15:44:41.153 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 16
+2026-06-04 15:44:41.238 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 529af7c4-7749-44dc-8ecb-173c1d7dab2b queued
+2026-06-04 15:52:10.020 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 15:52:10.021 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 15:52:10.021 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (7)DEMO.pdf
+2026-06-04 15:52:10.103 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 17
+2026-06-04 15:52:10.167 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 0c901221-e17d-48db-880d-c9a91758c796 queued
+2026-06-04 16:39:21.241 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 16:39:21.248 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 16:39:21.250 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (12)DEMO.pdf
+2026-06-04 16:39:21.347 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 18
+2026-06-04 16:39:21.400 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job f4a0a226-b260-460e-9d93-7db4022fbfb2 queued
+2026-06-04 17:07:58.045 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:07:58.047 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:07:58.050 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (2)DEMO.pdf
+2026-06-04 17:07:58.356 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 19
+2026-06-04 17:07:58.557 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 77e568df-0490-4276-8a17-996b4e375ef3 queued
+2026-06-04 17:24:04.742 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:24:04.744 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:24:04.744 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseordersDEMO (1).pdf
+2026-06-04 17:24:04.860 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 20
+2026-06-04 17:24:04.894 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 585c307e-b4c3-4133-b85b-d28eb10a6f42 queued
+2026-06-04 17:25:19.117 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:25:19.121 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:25:19.731 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\200mb.pdf
+2026-06-04 17:25:19.759 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 21
+2026-06-04 17:25:19.759 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 53343d04-eb0b-4f09-9d5d-7d1203a9aa2b queued
+2026-06-04 17:49:54.769 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:49:54.780 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:49:54.783 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (17)DEMO.pdf
+2026-06-04 17:49:55.049 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 22
+2026-06-04 17:49:55.094 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 614cc92f-8cc6-4812-803e-c59f4a1ab3b3 queued
+2026-06-04 17:50:03.645 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:50:03.649 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:50:03.661 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (16)DEMO.pdf
+2026-06-04 17:50:03.680 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 23
+2026-06-04 17:50:03.687 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job add176f8-dbc4-4d5c-b0f9-c3bde17825b8 queued
+2026-06-04 17:50:10.995 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:50:11.007 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:50:11.009 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (2)DEMO.pdf
+2026-06-04 17:50:11.034 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 24
+2026-06-04 17:50:11.039 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 299c1cd6-cf54-4373-b47e-fccf3e4d1553 queued
+2026-06-04 17:50:20.459 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:50:20.464 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:50:20.472 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (1)DEMO (1).pdf
+2026-06-04 17:50:20.495 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 25
+2026-06-04 17:50:20.499 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job e53b46a2-ad42-4102-953b-825c1fc72c35 queued
+2026-06-04 17:50:28.743 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:50:28.748 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:50:28.763 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (2)DEMO.pdf
+2026-06-04 17:50:28.797 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 26
+2026-06-04 17:50:28.804 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job 79cd2ea7-5402-4bbf-bb66-f50abdf7b7c9 queued
+2026-06-04 17:50:35.551 | INFO     | app.router.upload:upload_document:27 - STEP 1: Upload started
+2026-06-04 17:50:35.560 | INFO     | app.router.upload:upload_document:34 - STEP 2: File type detected: pdf
+2026-06-04 17:50:35.562 | INFO     | app.router.upload:upload_document:48 - STEP 3: File saved at D:\document_storage\purchaseorders (9)DEMO.pdf
+2026-06-04 17:50:35.597 | INFO     | app.router.upload:upload_document:61 - STEP 4: Document saved in DB with ID 27
+2026-06-04 17:50:35.600 | INFO     | app.router.upload:upload_document:65 - STEP 5: Background job ed71536d-c135-4af1-a4f3-a11fbcbe71dd queued

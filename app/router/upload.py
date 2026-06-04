@@ -2,7 +2,6 @@ import json
 import os
 import shutil
 from app.database import get_db
-from app.job.document_job import process_document_job
 from app.models import Document
 from app.service.file_detector import detect_file_type
 from app.service.processor import process_document
@@ -10,7 +9,8 @@ from fastapi import APIRouter, UploadFile, File, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.schema import UploadResponse
 from app.utils.logger import app_logger
-
+from app.worker.document_job import process_document_job
+from app.redis_queue import document_queue
 
 router = APIRouter()
 
@@ -60,7 +60,7 @@ async def upload_document(file: UploadFile = File(...), db: Session = Depends(ge
 
         app_logger.info(f"STEP 4: Document saved in DB with ID {document.id}")
         
-        document_job = document.queue.enqueue(process_document_job, document.id)
+        document_job = document_queue.enqueue(process_document_job, document.id)
         
         app_logger.info(f"STEP 5: Background job {document_job.id} queued")
 
