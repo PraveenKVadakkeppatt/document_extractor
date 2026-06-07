@@ -1,16 +1,19 @@
-import os
-from dotenv import load_dotenv
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
+class Settings(BaseSettings):
+    DB_SERVER: str
+    DB_NAME: str
+    DB_USER: str
+    DB_PASSWORD: str
+    DB_DRIVER: str
 
-load_dotenv()
+    REDIS_HOST: str = "localhost"
 
+    DOCUMENT_STORAGE: str = r"D:\document_storage"
 
-class Settings:
-
-    DB_SERVER = os.getenv("DB_SERVER")
-    DB_NAME = os.getenv("DB_NAME")
-    DB_DRIVER = os.getenv("DB_DRIVER")
-
-    DOCUMENT_STORAGE = r"D:\document_storage"
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        extra="ignore"
+    )
 
 settings = Settings()
